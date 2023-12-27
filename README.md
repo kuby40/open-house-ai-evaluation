@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OpenHouse.AI Coding Exercise
+This is the documentation to my Front End Web Dev Coding Exercise
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Technologies Used](#technologies-used)
+4. [Visit](#Visit)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
+A simple website to display different communities in Calgary and what the average cost of a home is in that community
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Responsive Design:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+_The website is responsive and optimized for all devices._
+_Ensure a seamless experience on any device._
 
-## Learn More
+## Technologies Used
+**This website is built using the following technologies:**
 
-To learn more about Next.js, take a look at the following resources:
+Front-End: React, Typescript, TailwindCSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Back-End: Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+# Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js 18.17 or later
+- Git: https://git-scm.com/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Follow up Questions
+
+**If given more time, how would you improve the quality of your application?**
+
+_Im pretty happy with the quality, but if I had more time I may take a look at the sorting of data and make sure it was as efficient as possible as with extremely large sets of data it may not be as quick as it could be_
+
+**Would you implement anything differently?**
+
+_Just better separation of concerns. Add a CompanyList, and CompanyCard Component instead of having all of it in one single Community Component._
+
+## Contact
+
+_For any questions, please contact my email:_ craig.kubinec@gmail.com
