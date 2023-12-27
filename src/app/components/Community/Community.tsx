@@ -22,7 +22,7 @@ const Community: React.FC<CommunityType> = ({ id, name, imgUrl, group, averageHo
                 <div className="flex flex-col p-4 bg-gray-800 text-white opacity-75">
                     <h2 className="font-bold text-lg">Community Name: {name}</h2>
                     <h2 className="text-sm mb-2">Quadrant: {group}</h2>
-                    <h2 className="font-bold text-base">Average Home Price: {averageHomeCost ? `$` + averageHomeCost?.toFixed(2) : 'No Data Currently'}</h2>
+                    <h2 className="font-bold text-base">Average Home Price: {averageHomeCost ? `$ ` + averageHomeCost?.toFixed(2) : 'No Data Currently'}</h2>
                 </div>
             </div>
         </div>
